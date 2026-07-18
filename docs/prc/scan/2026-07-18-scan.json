@@ -1,0 +1,13 @@
+{
+  "repo": "backend-hire",
+  "date": "2026-07-18",
+  "sources": ["graphify-out/graph.json", ".understand-anything/knowledge-graph.json", "steampipe:aws:sa_automation_ro", "gitleaks"],
+  "claims": [],
+  "aws_checks": [
+    {"query": "aws_lambda_function name ilike '%backend-hire%'", "result_count": 0, "status": "not_found"},
+    {"query": "aws_s3_bucket name ilike '%backend-hire%'", "result_count": 0, "status": "not_found"},
+    {"query": "aws_secretsmanager_secret name ilike '%backend-hire%'", "result_count": 0, "status": "not_found"}
+  ],
+  "gitleaks": {"commits_scanned": 2, "findings": 0},
+  "divergences": []
+}

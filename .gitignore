@@ -102,3 +102,10 @@ dist
 
 # TernJS port file
 .tern-port
+.claude/settings.local.json
+
+# NA-598 — knowledge graph / graphify (artefatos finais versionados)
+graphify-out/cache/
+graphify-out/.graphify_python
+graphify-out/.graphify_root
+.understand-anything/intermediate/
