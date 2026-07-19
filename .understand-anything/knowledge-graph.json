@@ -1,0 +1,97 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "backend-hire",
+    "description": "Repositório-template do teste de contratação para vagas de backend na Apoia.se: um README com a stack de referência (Node.js, GraphQL, REST, MongoDB, Lambda, AWS) e as instruções do desafio (fork, branch release/<nome>, CRUD de uma collection users). Sem código de produto — o candidato faz o fork e implementa a aplicação por conta própria.",
+    "languages": [],
+    "frameworks": [],
+    "analyzedAt": "2026-07-18T15:41:48-03:00",
+    "gitCommitHash": "195396f1d24496e4e64e620303575adfa136b77f"
+  },
+  "nodes": [
+    {
+      "id": "document:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "Enunciado do desafio de contratação: apresentação da empresa, stack de referência (Node.js, GraphQL, REST, MongoDB, Lambda, AWS), instruções (fork, branch release/[NOME], CRUD REST ou GraphQL de uma collection users com id/firstName/lastName/dateBirth) e critérios de avaliação (funcionamento, boas práticas, commits claros, cobertura de testes).",
+      "tags": [
+        "documentation",
+        "entry-point",
+        "hiring-test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:LICENSE",
+      "type": "document",
+      "name": "LICENSE",
+      "filePath": "LICENSE",
+      "summary": "Licença MIT, copyright APOIA.se (2020) — permite uso, cópia, modificação e distribuição livre do template do desafio.",
+      "tags": [
+        "documentation",
+        "license"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:.gitignore",
+      "type": "config",
+      "name": ".gitignore",
+      "filePath": ".gitignore",
+      "summary": "Gitignore padrão de projeto Node.js (logs, node_modules, coverage, caches de build, .env, .serverless/, .dynamodb/) — reflete a stack de referência do README (Node/Serverless/AWS) mesmo sem código presente no repo.",
+      "tags": [
+        "configuration",
+        "infrastructure"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "document:README.md",
+      "target": "config:.gitignore",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.4
+    },
+    {
+      "source": "document:README.md",
+      "target": "document:LICENSE",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.3
+    }
+  ],
+  "layers": [
+    {
+      "id": "layer:hiring-test-scaffold",
+      "name": "Enunciado do Desafio",
+      "description": "Todo o conteúdo pré-existente do repositório: o enunciado do teste de contratação backend (README), a licença MIT do template e o gitignore Node.js de referência. Não há código de produto — o candidato implementa a aplicação em fork próprio.",
+      "nodeIds": [
+        "document:README.md",
+        "document:LICENSE",
+        "config:.gitignore"
+      ]
+    }
+  ],
+  "tour": [
+    {
+      "order": 1,
+      "title": "Enunciado do desafio",
+      "description": "README.md é o único artefato funcional do repo: descreve a empresa, a stack de referência esperada (Node.js/GraphQL/REST/MongoDB/Lambda/AWS) e o desafio em si — fork, branch release/[nome], CRUD de uma collection users, avaliado por funcionamento, boas práticas, commits e testes.",
+      "nodeIds": [
+        "document:README.md"
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Licença e gitignore de referência",
+      "description": "LICENSE (MIT, APOIA.se) permite reuso livre do template. .gitignore já vem pré-configurado para um projeto Node.js com Serverless/AWS, antecipando a stack que o candidato vai usar, embora nenhum código tenha sido de fato commitado neste template.",
+      "nodeIds": [
+        "document:LICENSE",
+        "config:.gitignore"
+      ]
+    }
+  ]
+}

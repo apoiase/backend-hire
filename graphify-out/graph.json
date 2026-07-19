@@ -1,0 +1,103 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Desafio de Contrata\u00e7\u00e3o Backend",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_desafio_contratacao",
+      "community": 0,
+      "norm_label": "desafio de contratacao backend"
+    },
+    {
+      "label": "Stack de Refer\u00eancia (Node/GraphQL/REST/Mongo/Lambda/AWS)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_stack_referencia",
+      "community": 0,
+      "norm_label": "stack de referencia (node/graphql/rest/mongo/lambda/aws)"
+    },
+    {
+      "label": "Collection users (id/firstName/lastName/dateBirth)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_collection_users",
+      "community": 0,
+      "norm_label": "collection users (id/firstname/lastname/datebirth)"
+    },
+    {
+      "label": "Crit\u00e9rios de Avalia\u00e7\u00e3o (funcionamento, boas pr\u00e1ticas, commits, testes)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_criterios_avaliacao",
+      "community": 0,
+      "norm_label": "criterios de avaliacao (funcionamento, boas praticas, commits, testes)"
+    }
+  ],
+  "links": [
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_desafio_contratacao",
+      "target": "readme_collection_users"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_desafio_contratacao",
+      "target": "readme_criterios_avaliacao"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_desafio_contratacao",
+      "target": "readme_stack_referencia"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 0.75,
+      "source": "readme_stack_referencia",
+      "target": "readme_collection_users"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "195396f1d24496e4e64e620303575adfa136b77f"
+}

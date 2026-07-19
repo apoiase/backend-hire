@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "gitCommitHash": "195396f1d24496e4e64e620303575adfa136b77f",
+  "generatedAt": "2026-07-18T18:42:34.770Z",
+  "files": {
+    "README.md": {
+      "filePath": "README.md",
+      "contentHash": "264b49c2a1d3e29c495d025a77595588b27faa85cbe0dcc50191f786c57e15a6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 40,
+      "hasStructuralAnalysis": true
+    },
+    "LICENSE": {
+      "filePath": "LICENSE",
+      "contentHash": "3435df25189a3246b78405e71bfcaf5fb40cc47313ff6bff97de031d734ecd6f",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 22,
+      "hasStructuralAnalysis": false
+    },
+    ".gitignore": {
+      "filePath": ".gitignore",
+      "contentHash": "de76a77934cebd53c28b438b78672d3b4be9527c335c346b97d92ce022bb66c0",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 106,
+      "hasStructuralAnalysis": false
+    }
+  }
+}
